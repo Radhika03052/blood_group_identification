@@ -1,6 +1,11 @@
 # blood_group_identification
+The process of blood group identification using blood cell images.
+It eliminates manual testing errors, ensures faster results.
+Users upload images of blood cells to the app, and the system analyzes these images to identify the blood group, displaying results along with annotated visuals.
+The Blood Identification Web App is an innovative tool designed to streamline and enhance the process of identifying blood types.
 
-7. How to save an image using opencv
+
+How to save an image using opencv
 
     -> imwrite()
 
