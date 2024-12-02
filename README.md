@@ -80,5 +80,3 @@ cv2.destroyAllWindows()
         -> fx > 0
 
         -> fy > 0
-
-18:03has context menu  """
