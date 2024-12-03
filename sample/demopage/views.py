@@ -74,13 +74,13 @@ def profile(request):
 
         # Determine blood group
         blood_group = "Unknown"
-        if num_A > 0 and num_B == 0:
+        if num_A > 3 and num_B <= 3:
             blood_group = "A"
-        elif num_A == 0 and num_B > 0:
+        elif num_A <= 3 and num_B > 3:
             blood_group = "B"
-        elif num_A > 0 and num_B > 0:
+        elif num_A > 3 and num_B > 3:
             blood_group = "AB"
-        elif num_A == 0 and num_B == 0:
+        elif num_A <= 3 and num_B <= 3:
             blood_group = "O"
 
         if num_D > 0:
